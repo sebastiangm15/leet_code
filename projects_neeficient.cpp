@@ -44,7 +44,7 @@ int main(void)
         long ieri_max = dp[i - 1];
  
         long data_inceput = v[i].in;
-        long max_trecut = 0;
+        long max_trecut = 0;    
  
         for (int j = i - 1; j >= 1; j--) {
             if(v[j].sf < data_inceput) {
